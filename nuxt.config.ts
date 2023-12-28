@@ -7,6 +7,7 @@ export default defineNuxtConfig({
         typeCheck: true
     },
     modules: [
-        '@nuxtjs/tailwindcss'
+        '@nuxtjs/tailwindcss',
+        '@nuxt/image'
     ]
 });
