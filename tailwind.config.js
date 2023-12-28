@@ -11,5 +11,8 @@ export default {
             'primary': ['"Noto Serif Display"', 'serif'],
             'secondary': ['Inter', 'sans-serif']
         },
+        zIndex: {
+            'navbar': '900'
+        }
     }
 }
