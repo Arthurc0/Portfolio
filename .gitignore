@@ -1,0 +1,16 @@
+node_modules
+
+.DS_Store
+.fleet
+.idea
+.vscode
+
+.output
+.data
+.nuxt
+dist
+
+private
+.env
+.env.*
+!.env.example
