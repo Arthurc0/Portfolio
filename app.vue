@@ -1,3 +1,5 @@
 <template>
-    <div class="text-red-500">test tailwind</div>
+    <NuxtLayout>
+        <NuxtPage />
+    </NuxtLayout>
 </template>
