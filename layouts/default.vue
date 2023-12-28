@@ -1,6 +1,8 @@
 <template>
-    <div class="layout overflow-hidden flex items-stretch h-screen">
+    <div class="layout">
         <AppNavbar />
-        <slot />
+        <div class="mt-24">
+            <slot />
+        </div>
     </div>
 </template>
