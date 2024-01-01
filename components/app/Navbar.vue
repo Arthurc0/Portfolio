@@ -1,10 +1,10 @@
 <template>
-    <header class="w-full py-6 font-semibold px-11">
+    <header class="z-navbar sticky top-0 w-full py-6 h-[94px] font-semibold px-11">
         <div class="flex items-center justify-between mx-auto max-w-[1350px]">
             <nav class="flex-1">
                 <ul class="flex items-center gap-16 uppercase">
-                    <li v-for="link in navLinks" :key="link.hash" class="transition duration-200 hover:scale-105 will-change-transform border-b-2 border-hidden border-black hover:border-dashed">
-                        <NuxtLink :to="{ path: '/', hash: link?.hash ?? '' }">{{ link.text }}</NuxtLink>
+                    <li class="text-black rounded-md px-1 transition duration-200 hover:scale-105 will-change-transform hover:text-white hover:bg-black">
+                        <NuxtLink :to="{ path: '/', hash: '#projets' }">Projets</NuxtLink>
                     </li>
                 </ul>
             </nav>
@@ -17,10 +17,3 @@
         </div>
     </header>
 </template>
-
-<script setup lang="ts">
-const navLinks = [
-    { text: 'A propos', path: '/' },
-    { text: 'Projets', hash: '#projets' }
-];
-</script>
